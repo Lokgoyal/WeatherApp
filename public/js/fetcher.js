@@ -20,7 +20,7 @@ weatherForm.addEventListener('submit', (e) => {
             if(data.error)
                 return Result.innerHTML = data.error
             
-            Result.innerHTML = "Weather for " + data.location + " is " + data.forecast + " with temperature " + data.temperature
+            Result.innerHTML = "Weather for " + data.location + " is " + data.forecast + " with temperature " + data.temperature + " and humidity " + data.humidity
         })
     })
 })

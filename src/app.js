@@ -123,14 +123,15 @@ app.get('/forecast', (req, res) => {
         if(error)
             return res.send({error})
 
-        getForeCast(latitude, longitude, (subError, {temperature, summary} = {}) => {
+        getForeCast(latitude, longitude, (subError, {temperature, summary, humidity} = {}) => {
             if(subError)
                 return res.send({subError})
             
             return res.send({
                 temperature,
                 forecast : summary,
-                location
+                location,
+                humidity
             })
         })
     })
