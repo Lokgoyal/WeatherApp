@@ -1,6 +1,6 @@
 
 
-const locationURL = 'http://localhost:3000/forecast?address='
+const locationURL = '/forecast?address='
 
 
 const weatherForm = document.querySelector('form')
