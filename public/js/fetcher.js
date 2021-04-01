@@ -1,4 +1,4 @@
-console.log("Script is running")
+
 
 const locationURL = 'http://localhost:3000/forecast?address='
 
