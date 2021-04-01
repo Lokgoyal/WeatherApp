@@ -1,0 +1,48 @@
+h1 {
+    font-size: 60px;
+}
+
+.main-content{
+    padding-bottom: 20px;
+    flex-grow: 1;
+}
+
+body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        color : #333333;
+        font-size: 20px;
+        margin: 0 auto;
+        line-height:1vw;
+}
+
+header{
+    border-bottom: 1px solid #eeeeee;
+}
+
+input{
+    border : 1px solid #cccccc;
+    padding : 8px;
+}
+
+button{
+    border : 1px solid #888888;
+    background: #333333;
+    color: white;
+    padding : 8px;
+    cursor : pointer;
+}
+
+header a{
+    text-decoration: none;
+    color: #3d3c3c;
+    margin-right: 20px;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-bottom:20px;
+}

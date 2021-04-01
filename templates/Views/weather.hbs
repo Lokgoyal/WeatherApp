@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<HTML>
+
+    <HEAD>
+        <link rel = "icon" href="/img/weather-Image.png">
+    </HEAD>
+
+    <TITLE>Weather Forecast</TITLE>
+
+    <BODY>
+        <Div class= "main-content">
+            {{>header}}
+
+            <p style = "margin-top:2vw; color: #4e4e4e">
+                Welcome to weather forecast API<BR>
+                <!--Weather for {{location}} is {{forecast}} with {{temperature}} degree-->
+            </p>
+
+            <Form>
+                <input type="text" placeholder="location">
+                <button>search</button>
+            </Form>
+
+            <p id="Result"></p>              
+        </Div>
+
+        
+        {{>footer}}
+        <script src = "/js/fetcher.js"></script>
+    </BODY>
+</HTML>
