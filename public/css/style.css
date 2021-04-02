@@ -15,11 +15,12 @@ body{
         color : #333333;
         font-size: 20px;
         margin: 0 auto;
-        line-height:1vw;
 }
 
 #Result {
-    padding : 8px;
+    margin-top: 15px;
+    padding-top: 15px;
+    line-height: 1.5vw;
 }
 header{
     border-bottom: 1px solid #eeeeee;
