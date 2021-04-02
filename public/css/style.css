@@ -18,6 +18,9 @@ body{
         line-height:1vw;
 }
 
+#Result {
+    padding : 8px;
+}
 header{
     border-bottom: 1px solid #eeeeee;
 }
