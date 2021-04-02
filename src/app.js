@@ -6,6 +6,7 @@ const express = require('express')
 const {getGeoCode, getForeCast} = require('./utils/utilities')
 
 
+
 //Express Initiated
 const app = express()
 const port = process.env.PORT || 3000
